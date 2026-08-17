@@ -10,7 +10,6 @@ else:
 
 #a function to check commands
 def check_command(arg):
-    arg = sys.argv[1]
     if arg == "add":
         #call add function
     elif arg == "update":
